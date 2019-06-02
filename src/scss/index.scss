@@ -75,7 +75,7 @@ body {
             top: 21px;
             left: 200px;
             transform-origin: bottom;
-            // animation: seconds 60s linear infinite;
+            animation: seconds 60s linear infinite;
             border-left: 1px solid #e67e22;
             border-radius: 1px;
         }
@@ -87,7 +87,7 @@ body {
             top: 101px;
             left: 200px;
             transform-origin: bottom left;
-            // animation: minutes 3600s linear infinite;
+            animation: minutes 3600s linear infinite;
             border-left: 1px solid #8e44ad;
             border-radius: 1px;
         }
@@ -100,7 +100,7 @@ body {
             top: 71px;
             left: 200px;
             transform-origin: bottom left;
-            // animation: minutes 86400s linear infinite;
+            animation: minutes 86400s linear infinite;
             border-left: 1px solid #e74c3c;
             border-radius: 1px;
         }
