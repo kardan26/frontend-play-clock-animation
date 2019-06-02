@@ -19,8 +19,9 @@ const mini_css_extract_plugin = new MiniCssExtractPlugin({
 module.exports = {
     entry: ['./src/js/index.js', './src/scss/index.scss'],
     output: {
-        path: path.resolve(__dirname, "dist"),
-        filename: 'bundle.js'
+        path: path.resolve(__dirname, "build"),
+        filename: 'bundle.js',
+        publicPath: "/frontend-play-clock-animation/"
     },
     module: {
         rules: [
