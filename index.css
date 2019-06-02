@@ -89,7 +89,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-5::after {
         content: "1";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -166,7 +166,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-10::after {
         content: "2";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -240,16 +240,18 @@ body {
         position: absolute;
         margin-top: 4px;
         height: 5px;
-        height: 10px;
-        border: 1px solid black; }
+        border: 1px solid black;
+        height: 4px;
+        border: 2px solid black; }
       body .clock .time-step-15::after {
         content: "3";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
         transform: translateX(-50%) rotate(-90deg);
-        left: -3px; }
+        left: -3px;
+        font-size: 2rem; }
     body .clock .time-step-16 {
       position: absolute;
       box-sizing: border-box;
@@ -322,7 +324,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-20::after {
         content: "4";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -399,7 +401,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-25::after {
         content: "5";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -473,15 +475,17 @@ body {
         position: absolute;
         margin-top: 4px;
         height: 5px;
-        height: 10px;
-        border: 1px solid black; }
+        border: 1px solid black;
+        height: 4px;
+        border: 2px solid black; }
       body .clock .time-step-30::after {
         content: "6";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
-        transform: translateX(-50%) rotate(-180deg); }
+        transform: translateX(-50%) rotate(-180deg);
+        font-size: 2rem; }
     body .clock .time-step-31 {
       position: absolute;
       box-sizing: border-box;
@@ -554,7 +558,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-35::after {
         content: "7";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -631,7 +635,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-40::after {
         content: "8";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -705,16 +709,18 @@ body {
         position: absolute;
         margin-top: 4px;
         height: 5px;
-        height: 10px;
-        border: 1px solid black; }
+        border: 1px solid black;
+        height: 4px;
+        border: 2px solid black; }
       body .clock .time-step-45::after {
         content: "9";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
         transform: translateX(-50%) rotate(-270deg);
-        left: 3px; }
+        left: 3px;
+        font-size: 2rem; }
     body .clock .time-step-46 {
       position: absolute;
       box-sizing: border-box;
@@ -787,7 +793,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-50::after {
         content: "10";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -864,7 +870,7 @@ body {
         border: 1px solid black; }
       body .clock .time-step-55::after {
         content: "11";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
@@ -938,15 +944,17 @@ body {
         position: absolute;
         margin-top: 4px;
         height: 5px;
-        height: 10px;
-        border: 1px solid black; }
+        border: 1px solid black;
+        height: 4px;
+        border: 2px solid black; }
       body .clock .time-step-60::after {
         content: "12";
-        font-size: 1.4rem;
+        font-size: 1.6rem;
         font-family: 'Molengo', sans-serif;
         margin-top: 15px;
         position: absolute;
-        transform: translateX(-50%) rotate(-360deg); }
+        transform: translateX(-50%) rotate(-360deg);
+        font-size: 2rem; }
     body .clock .company-name {
       position: absolute;
       left: 200px;
