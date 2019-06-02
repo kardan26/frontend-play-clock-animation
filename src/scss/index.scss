@@ -42,7 +42,7 @@ body {
                 @if $i%5 == 0 {
                     &::after {
                         content: '#{$i/5}';
-                        font-size: 1.4rem;
+                        font-size: 1.6rem;
                         font-family: 'Molengo', sans-serif;
                         margin-top: 15px;
                         position: absolute;
@@ -52,6 +52,9 @@ body {
                         }
                         @if $i == 15 {
                             left: -3px;
+                        }
+                        @if $i%15 == 0 {
+                            font-size: 2rem;
                         }
                     }
                 }
