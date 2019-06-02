@@ -38,7 +38,7 @@ body {
                     } 
                     border: 1px solid black;                    
                 }
-                @if $i%15 == 0 {
+                @if $i%5 == 0 {
                     &::after {
                         content: '#{$i/5}';
                         font-size: 1.4rem;
