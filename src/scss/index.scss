@@ -70,11 +70,11 @@ body {
         .seconds {
             box-sizing: border-box;
             width: 1px;
-            height: 180px;
+            height: 195px;
             position: absolute;
-            top: 21px;
-            left: 200px;
-            transform-origin: bottom;
+            top: 36px;
+            left: 201px;
+            transform-origin: left 165px;
             animation: seconds 60s linear infinite;
             border-left: 1px solid #e67e22;
             border-radius: 1px;
@@ -82,12 +82,12 @@ body {
         .hours {
             box-sizing: border-box;
             width: 1px;
-            height: 100px;
+            height: 115px;
             position: absolute;
-            top: 101px;
-            left: 200px;
-            transform-origin: bottom left;
-            animation: minutes 3600s linear infinite;
+            top: 115px;
+            left: 201px;
+            transform-origin: left 85px;
+            animation: seconds 86400s linear infinite;
             border-left: 1px solid #8e44ad;
             border-radius: 1px;
         }
@@ -95,12 +95,12 @@ body {
         .minutes {
             box-sizing: border-box;
             width: 1px; 
-            height: 130px;
+            height: 145px; 
             position: absolute;
-            top: 71px;
-            left: 200px;
-            transform-origin: bottom left;
-            animation: minutes 86400s linear infinite;
+            top: 85px;
+            left: 201px;
+            transform-origin: left 115px;
+            animation: seconds 3600s linear infinite;
             border-left: 1px solid #e74c3c;
             border-radius: 1px;
         }
@@ -170,12 +170,6 @@ body {
 }
 
 @keyframes seconds {
-    to {
-        transform: rotate(360deg)
-    }
-}
-
-@keyframes minutes {
     to {
         transform: rotate(360deg)
     }
