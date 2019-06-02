@@ -1,3 +1,3 @@
-# Simple Loading animation
+# Simple Clock animation
 
-https://kardan26.github.io/frontend-play-loading-animation/
+https://kardan26.github.io/frontend-clock-loading-animation/
