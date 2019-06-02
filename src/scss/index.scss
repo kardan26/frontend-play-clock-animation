@@ -33,10 +33,11 @@ body {
                     position: absolute;
                     margin-top: 4px;
                     height: 5px;
+                    border: 1px solid black; 
                     @if $i%15 == 0 {
-                        height: 10px;
-                    } 
-                    border: 1px solid black;                    
+                        height: 4px;
+                        border: 2px solid black; 
+                    }                
                 }
                 @if $i%5 == 0 {
                     &::after {
